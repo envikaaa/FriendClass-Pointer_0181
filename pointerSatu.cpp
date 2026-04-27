@@ -13,4 +13,10 @@ int main(){
     mhs.showNim(); //Member Acces Operator
 
     mahasiswa &refMhs = mhs; //Pointer Reference refMhs
+    refMhs.nim = 2; //Member Acces Operator
+    mhs.showNim();
+
+    mahasiswa *pMhs = &mhs; //Pointer Dereference pMhs
+    pMhs->nim = 3; //Arrow Operator
+     
 }
